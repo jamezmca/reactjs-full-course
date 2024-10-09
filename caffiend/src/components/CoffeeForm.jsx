@@ -35,7 +35,7 @@ export default function CoffeeForm(props) {
             }
 
             const nowTime = Date.now()
-            const timeToSubtract = (hour * 60 * 60 * 1000) + (min * 60 * 100)
+            const timeToSubtract = (hour * 60 * 60 * 1000) + (min * 60 * 1000)
             const timestamp = nowTime - timeToSubtract
 
             const newData = {
