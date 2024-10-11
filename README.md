@@ -1,4 +1,4 @@
-# React.JS Full Course | Build and Deploy 3 Modern Web Apps w. FantaCSS & Firebase 🔥
+# React.JS Full Course | Build & Deploy 3 Modern Web Apps & Get Hired! 🔥
 
 Ready to become a React.js developer? In this course, we'll guide you step-by-step as you learn React.js by building three exciting projects: a **Todo App**, a **Pokedex**, and a **Coffee Tracker**. These projects gradually increase in complexity, helping you strengthen your skills while creating impressive, real-world applications. You'll use **Firebase** for authentication and data storage and all the projects are beautifully pre-styled with [**FantaCSS**](https://www.fantacss.smoljames.com). By the end, not only will you be a React.JS wizard, but you'll have portfolio-worthy projects that can get you hired as a Software Developer!
 
