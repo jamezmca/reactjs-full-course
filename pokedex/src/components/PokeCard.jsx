@@ -39,7 +39,7 @@ export default function PokeCard(props) {
             const moveData = await res.json()
             console.log('Fetched move from API', moveData)
             const description = moveData?.flavor_text_entries.filter(val => {
-                return val.version_group.name = 'firered-leafgreen'
+                return val.version_group.name == 'firered-leafgreen'
             })[0]?.flavor_text
 
             const skillData = {
@@ -119,7 +119,7 @@ export default function PokeCard(props) {
                     </div>
                     <div>
                         <h6>Description</h6>
-                        <p>{skill.description}</p>
+                        <p>{(skill.description) || ('No Description provided')}</p>
                     </div>
                 </Modal>
             )}
